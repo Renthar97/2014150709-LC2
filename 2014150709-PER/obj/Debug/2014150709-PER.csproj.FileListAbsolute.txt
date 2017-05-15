@@ -12,3 +12,4 @@ c:\users\hp\documents\visual studio 2017\Projects\2014150709-SLN\2014150709-PER\
 c:\users\hp\documents\visual studio 2017\Projects\2014150709-SLN\2014150709-PER\obj\Debug\2014150709-PER.pdb
 c:\users\hp\documents\visual studio 2017\Projects\2014150709-SLN\2014150709-PER\obj\Debug\_2014150709_PER.Migrations.InitialModel.resources
 c:\users\hp\documents\visual studio 2017\Projects\2014150709-SLN\2014150709-PER\obj\Debug\2014150709-PER.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2017\Projects\2014150709-SLN\2014150709-PER\obj\Debug\_2014150709_PER.Migrations.Model1.resources

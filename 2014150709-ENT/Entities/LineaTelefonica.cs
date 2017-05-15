@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class LineaTelefonica
+    public class LineaTelefonica
     {
+        public int LineaTelefonica_Id { get; set; }
+        public string Operador { get; set; }
+        public string Numero { get; set; }
+
+        public virtual TipoLinea Tipo { get; set; }
+
     }
 }

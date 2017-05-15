@@ -48,11 +48,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntitiesConfigurations\AdministradorEquipoConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\AdministradorLineaConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\CentroAtencionConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\ClienteConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\ContratoConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\DepartamentoConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\DireccionConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\DistritoConfiguration.cs" />
     <Compile Include="EntitiesConfigurations\EquipoCelularConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\EstadoEvaluacionConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\EvaluacionConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\LineaTelefonicaConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\PlanConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\ProvinciaConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TipoEvaluacionConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TipoLineaConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TipoPagoConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TipoPlanConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TipoTrabajadorConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\TrabajadorConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\UbigeoConfiguration.cs" />
+    <Compile Include="EntitiesConfigurations\VentaConfiguration.cs" />
     <Compile Include="LineasNuevasDbContext.cs" />
     <Compile Include="Migrations\201705150114264_InitialModel.cs" />
     <Compile Include="Migrations\201705150114264_InitialModel.Designer.cs">
       <DependentUpon>201705150114264_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150401418_Model1.cs" />
+    <Compile Include="Migrations\201705150401418_Model1.Designer.cs">
+      <DependentUpon>201705150401418_Model1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +94,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705150114264_InitialModel.resx">
       <DependentUpon>201705150114264_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150401418_Model1.resx">
+      <DependentUpon>201705150401418_Model1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

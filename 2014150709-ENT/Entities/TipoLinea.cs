@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class TipoLinea
+    public class TipoLinea
     {
+        public int TipoLinea_Id { get; set; }
+        public string Tipo_Linea { get; set; }
     }
 }

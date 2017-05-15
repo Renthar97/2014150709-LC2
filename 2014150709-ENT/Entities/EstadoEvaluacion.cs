@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class EstadoEvaluacion
+    public class EstadoEvaluacion
     {
+        public int EstadoEvaluacionId { get; set; }
+        public Boolean Estado { get; set; }
+
     }
 }

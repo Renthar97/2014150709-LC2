@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class TipoEvaluacion
+    public class TipoEvaluacion
     {
+        
+        public int TipoEvaluacion_Id { get; set; }
+
+        public string Tipo { get; set; }
     }
 }

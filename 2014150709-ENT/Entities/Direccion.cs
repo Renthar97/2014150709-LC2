@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class Direccion
+    public class Direccion
     {
+        public int DireccionId { get; set; }
+        public string Adress { get; set; }
+
+        public virtual Ubigeo UbigeoId { get; set; }
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _2014150709_ENT.Entities
 {
-    class Cliente
+    public class Cliente
     {
+        public int Cliente_Id { get; set; }
+        public string Nombre { get; set; }
+        public string  Apellido_Paterno { get; set; }
+        public string Apellido_Materno { get; set; }
+        public string Telefono { get; set; }
     }
 }
