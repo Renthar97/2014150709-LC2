@@ -1,4 +1,4 @@
-namespace _2014150709_PER.Migrations
+ namespace _2014150709_PER.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

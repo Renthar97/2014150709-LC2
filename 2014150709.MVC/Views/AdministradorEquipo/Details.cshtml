@@ -1,0 +1,51 @@
+﻿@model _2014150709_ENT.Entities.AdministradorEquipo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AdministradorEquipo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_AdEquipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_AdEquipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellido_Paterno_AdEquipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellido_Paterno_AdEquipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellido_Materno_AdEquipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellido_Materno_AdEquipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dni)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dni)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AdministradorEquipo_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

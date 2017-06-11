@@ -61,5 +61,9 @@ namespace _2014150709_PER
 
             base.OnModelCreating(modelBuilder);
         }
+
+        public System.Data.Entity.DbSet<_2014150709_ENT.Entities.CentroAtencion> CentroAtencions { get; set; }
+
+        public System.Data.Entity.DbSet<_2014150709_ENT.Entities.Direccion> Direccions { get; set; }
     }
 }

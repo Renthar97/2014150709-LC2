@@ -1,0 +1,52 @@
+﻿@model IEnumerable<_2014150709_ENT.Entities.AdministradorLinea>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre_AdLinea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido_Paterno_AdLinea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido_Materno_AdLinea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dni)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre_AdLinea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellido_Paterno_AdLinea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellido_Materno_AdLinea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dni)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AdministradorLinea_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AdministradorLinea_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AdministradorLinea_Id })
+        </td>
+    </tr>
+}
+
+</table>

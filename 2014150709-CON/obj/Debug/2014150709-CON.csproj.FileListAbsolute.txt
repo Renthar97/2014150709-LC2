@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\bin\Debug\2014150709-CON.exe.config
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\bin\Debug\2014150709-CON.exe
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\bin\Debug\2014150709-CON.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\obj\Debug\2014150709-CON.exe
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\obj\Debug\2014150709-CON.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\2014150709-SLN\2014150709-CON\obj\Debug\2014150709-CON.csprojResolveAssemblyReference.cache
